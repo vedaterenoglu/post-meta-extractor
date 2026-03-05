@@ -30,6 +30,18 @@ npm run test:coverage
 
 Coverage reports are written to `./coverage` (HTML report: `./coverage/index.html`).
 
+## Deep Docs
+
+README is the canonical quickstart and top-level API summary. For deeper guides, use:
+
+- [Docs Site](https://vedaterenoglu.github.io/post-meta-data-extractor-docs/)
+- [Docs Repository](https://github.com/vedaterenoglu/post-meta-data-extractor-docs)
+- [Docs Overview](https://vedaterenoglu.github.io/post-meta-data-extractor-docs/docs/getting-started/overview)
+- [AI Adapters Guide](https://vedaterenoglu.github.io/post-meta-data-extractor-docs/docs/guides/ai-adapters)
+- [TanStack Start Guide](https://vedaterenoglu.github.io/post-meta-data-extractor-docs/docs/guides/tanstack-start)
+- [Nuxt Guide](https://vedaterenoglu.github.io/post-meta-data-extractor-docs/docs/guides/nuxt)
+- [Core API Reference](https://vedaterenoglu.github.io/post-meta-data-extractor-docs/docs/reference/core-api)
+
 ## Core Sync API
 
 ```ts

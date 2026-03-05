@@ -1,6 +1,16 @@
 {
   "name": "post-meta-extractor",
   "version": "0.2.0-beta.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vedaterenoglu/post-meta-extractor.git"
+  },
+  "author": {
+    "name": "Vedat Erenoglu",
+    "email": "info@vedaterenoglu.com",
+    "url": "https://vedaterenoglu.com",
+    "linkedin": "https://www.linkedin.com/in/vedaterenoglu/"
+  },
   "description": "Framework-agnostic post metadata extractor with optional React, Solid, and Vue wrappers.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -59,8 +69,10 @@
     "react",
     "vue"
   ],
-  "author": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=20 <24"
+  },
   "peerDependencies": {
     "react": ">=18",
     "solid-js": ">=1.8",

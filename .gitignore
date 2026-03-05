@@ -17,3 +17,6 @@ pnpm-debug.log*
 .vscode/
 *.swp
 *.swo
+
+.docusaurus/
+build/

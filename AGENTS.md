@@ -23,6 +23,15 @@ This repository provides a framework-agnostic npm package for post metadata extr
 - Do not replace parser-derived deterministic fields with AI output.
 - Keep AI retries + diagnostics behavior consistent with tests and README.
 
+## Docs Ownership
+- `README.md` is the canonical source for package positioning, install, quickstart, and top-level public API framing.
+- Deep docs live in the separate docs repository: `https://github.com/vedaterenoglu/post-meta-data-extractor-docs`.
+- Avoid copy-paste duplication between README and deep docs; deep reference pages should link back to README canonical anchors.
+- Every API change checklist:
+  - Update `README.md`
+  - Update impacted docs pages in `post-meta-data-extractor-docs`
+  - Verify docs repo CI passes (`typecheck`, build, readme drift, links)
+
 ## Development Commands
 - Install: `npm install`
 - Typecheck: `npm run typecheck`
